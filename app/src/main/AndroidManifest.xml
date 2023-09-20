@@ -13,6 +13,11 @@
         android:theme="@style/Theme.IR4A"
         tools:targetApi="31">
         <activity
+            android:name=".Accueil"
+            android:exported="false"
+            android:label="@string/title_activity_accueil"
+            android:theme="@style/Theme.IR4A" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
